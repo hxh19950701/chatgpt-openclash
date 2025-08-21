@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.243.226.51/link/wmFAOi5Za7Puute1?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2025-08-11 10:15:39
+## 上次更新于：2025-08-21 09:44:11
 #---------------------------------------------------#
 
 port: 7890
@@ -166,7 +166,7 @@ proxies:
     obfsparam: 7a6c8569115.microsoft.com
     obfs-param: 7a6c8569115.microsoft.com
   -
-    name: '🇹🇼 AA8台湾1 V2Ray VIP2 网址:nnbin.com'
+    name: '🇹🇼 AA8台湾1 VIP2 网址:nnbin.com'
     type: ssr
     server: vip2tw.zpcloud.top
     port: 23564
@@ -902,7 +902,7 @@ proxy-groups:
       - '🇯🇵 AA6日本1 IPLC VIP2 网址:nnbin.com'
       - '🇯🇵 AA6日本2 IPLC VIP2 网址:nnbin.com'
       - '🇮🇩 AA8印尼 VIP2 网址:nnbin.com'
-      - '🇹🇼 AA8台湾1 V2Ray VIP2 网址:nnbin.com'
+      - '🇹🇼 AA8台湾1 VIP2 网址:nnbin.com'
       - "🇹🇼 AA8台湾2 支持NF VIP2 网址:nnbin.com\t"
       - '🇹🇼 AA8台湾3 支持NF VIP2 网址:nnbin.com'
       - '🇹🇷 AA8土耳其 VIP2 网址:ccbbss.com'
