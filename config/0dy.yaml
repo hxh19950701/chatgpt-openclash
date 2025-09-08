@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.243.226.51/link/wmFAOi5Za7Puute1?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2025-09-03 04:44:08
+## 上次更新于：2025-09-09 06:10:45
 #---------------------------------------------------#
 
 port: 7890
@@ -642,7 +642,7 @@ proxies:
     name: '🇸🇬 A新加坡1 VIP1 网址:nnbin.com'
     type: ssr
     server: baidu.baidumysql.com
-    port: 6000
+    port: 6021
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
