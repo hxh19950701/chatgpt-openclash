@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.243.226.51/link/wmFAOi5Za7Puute1?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2025-09-10 05:19:18
+## 上次更新于：2025-10-18 06:46:07
 #---------------------------------------------------#
 
 port: 7890
@@ -205,7 +205,7 @@ proxies:
     obfsparam: 7a6c8569115.microsoft.com
     obfs-param: 7a6c8569115.microsoft.com
   -
-    name: '🇹🇷 AA8土耳其 VIP2 网址:ccbbss.com'
+    name: '🇹🇷 AA8土耳其1 VIP2 网址:ccbbss.com'
     type: ssr
     server: vip2tw.zpcloud.top
     port: 23587
@@ -331,6 +331,19 @@ proxies:
     type: ssr
     server: aa8malaixiya.zpcloud.top
     port: 23575
+    cipher: aes-256-cfb
+    password: J3ITPq
+    protocol: auth_aes128_sha1
+    protocolparam: '569115:FGY6vN'
+    protocol-param: '569115:FGY6vN'
+    obfs: http_simple
+    obfsparam: 7a6c8569115.microsoft.com
+    obfs-param: 7a6c8569115.microsoft.com
+  -
+    name: "🇲🇾 AA8马来西亚2 VIP2 网址:nnbin.com\t"
+    type: ssr
+    server: aa8malaixiya.zpcloud.top
+    port: 23577
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
@@ -905,7 +918,7 @@ proxy-groups:
       - '🇹🇼 AA8台湾1 VIP2 网址:nnbin.com'
       - "🇹🇼 AA8台湾2 支持NF VIP2 网址:nnbin.com\t"
       - '🇹🇼 AA8台湾3 支持NF VIP2 网址:nnbin.com'
-      - '🇹🇷 AA8土耳其 VIP2 网址:ccbbss.com'
+      - '🇹🇷 AA8土耳其1 VIP2 网址:ccbbss.com'
       - '🇧🇷 AA8巴西 VIP2 网址:nnbin.com'
       - "🇩🇪 AA8德国 VIP2 网址:nnbin.com\t"
       - '🇫🇷 AA8法国 V2ray 网址:nnbin.com'
@@ -916,6 +929,7 @@ proxy-groups:
       - 'AA8西班牙 VIP2 网址:nnbin.com'
       - '🇻🇳 AA8越南 VIP2 网址:nnbin.com'
       - '🇲🇾 AA8马来西亚 VIP2 网址:nnbin.com'
+      - "🇲🇾 AA8马来西亚2 VIP2 网址:nnbin.com\t"
       - '🇷🇺 AA俄罗斯1 VIP2 网址:nnbin.com'
       - '🇨🇦 AA加拿大1 VIP2 网址:nnbin.com'
       - '🇨🇦 AA加拿大2 VIP2 网址:nnbin.com'
