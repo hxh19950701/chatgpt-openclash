@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG http://47.243.226.51/link/wmFAOi5Za7Puute1?clash=2
+#!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2025-10-18 06:46:07
+## 上次更新于：2026-04-25 10:58:14
 #---------------------------------------------------#
 
 port: 7890
@@ -14,945 +14,311 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '🇸🇬 AA1新加坡 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: abzj1.zpcloud.top
-    port: 23548
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇸🇬 A新加坡1 AnyTLs 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26019
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
-    name: '🇸🇬 AA3新加坡 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk3.zpcloud.top
-    port: 23550
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇸🇬 A新加坡2 AnyTLs 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26020
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
-    name: '🇸🇬 AA4新加坡IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk4.zpcloud.top
-    port: 23551
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇸🇬 A新加坡3 AnyTLs 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26021
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
-    name: '🇺🇲 AA5美国1 IPLC VIP2 网址:nnbin.com'
-    type: ssr
-    server: huus.zpcloud.top
-    port: 23552
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇺🇲 A美国1 AnyTls 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26022
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
-    name: '🇺🇲 AA5美国2 IPLC  VIP2 网址:nnbin.com'
-    type: ssr
-    server: aa5us2.zpcloud.top
-    port: 234
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇺🇲 A美国2 AnyTls 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26023
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
-    name: '🇺🇲 AA5美国3 IPLC VIP2 网址:nnbin.com'
-    type: ssr
-    server: AA7us3.zpcloud.top
-    port: 21542
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇺🇲 AA5美国4 IPLC  VIP2 网址:nnbin.com'
-    type: ssr
-    server: AA5us4.zpcloud.top
-    port: 23581
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇺🇲 AA5美国5 IPLC  VIP2 网址:nnbin.com'
-    type: ssr
-    server: aa5us5.zpcloud.top
-    port: 23582
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇺🇲 AA5美国6 V2ray 网址:nnbin.com'
-    type: vmess
-    server: aa5meiguo6.zpcloud.top
-    port: 33437
-    uuid: 03c19461-8c8a-348a-a48c-5b42f874f527
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '🇯🇵 AA6日本1 IPLC VIP2 网址:nnbin.com'
-    type: ssr
-    server: hujp.zpcloud.top
-    port: 23566
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇯🇵 AA6日本2 IPLC VIP2 网址:nnbin.com'
-    type: ssr
-    server: aajp7.zpcloud.top
-    port: 23567
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇮🇩 AA8印尼 VIP2 网址:nnbin.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23584
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇹🇼 AA8台湾1 VIP2 网址:nnbin.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23564
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: "🇹🇼 AA8台湾2 支持NF VIP2 网址:nnbin.com\t"
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23553
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇹🇼 AA8台湾3 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23549
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇹🇷 AA8土耳其1 VIP2 网址:ccbbss.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23587
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇧🇷 AA8巴西 VIP2 网址:nnbin.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23586
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: "🇩🇪 AA8德国 VIP2 网址:nnbin.com\t"
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23576
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇫🇷 AA8法国 V2ray 网址:nnbin.com'
-    type: vmess
-    server: aa8faguo.zpcloud.top
-    port: 33439
-    uuid: 03c19461-8c8a-348a-a48c-5b42f874f527
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '🇹🇭 AA8泰国 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23554
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇹🇭 AA8泰国2 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23580
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: 'AA8澳洲 V2ray 网址:nnbin.com'
-    type: vmess
-    server: aa8aodaliya.zpcloud.top
-    port: 33438
-    uuid: 03c19461-8c8a-348a-a48c-5b42f874f527
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '🇵🇭 AA8菲律宾 VIP2 网址:nnbin.com'
-    type: ssr
-    server: vip2tw.zpcloud.top
-    port: 23583
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: 'AA8西班牙 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23562
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇻🇳 AA8越南 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23555
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇲🇾 AA8马来西亚 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aa8malaixiya.zpcloud.top
-    port: 23575
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: "🇲🇾 AA8马来西亚2 VIP2 网址:nnbin.com\t"
-    type: ssr
-    server: aa8malaixiya.zpcloud.top
-    port: 23577
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇷🇺 AA俄罗斯1 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23574
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇨🇦 AA加拿大1 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aajianada1.zpcloud.top
-    port: 23572
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇨🇦 AA加拿大2 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aajianada2.zpcloud.top
-    port: 23573
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇮🇳 AA印度1 VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayindu1.zpcloud.top
-    port: 23570
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡1 IPLC  支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: asg1.zpcloud.top
-    port: 23579
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡2 IPLC  支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: asg2.zpcloud.top
-    port: 11196
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡3 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aasg3.zpcloud.top
-    port: 11120
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡4 IPLC  支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aasg3.zpcloud.top
-    port: 11197
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡5 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aasg3.zpcloud.top
-    port: 11198
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇸🇬 AA新加坡6 IPLC  支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aaxinjiapo6.zpcloud.top
-    port: 11199
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇬🇧 AA英国1 IEPL VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayingguo1.zpcloud.top
-    port: 23556
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇬🇧 AA英国2 IEPL VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayingguo2.zpcloud.top
-    port: 23557
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇬🇧 AA英国3 IEPL VIP2 网址:nnbin.com'
-    type: ssr
-    server: aayingguo3.zpcloud.top
-    port: 23558
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇰🇷 AA韩国1 IPLC  VIP2 网址:nnbin.com'
-    type: ssr
-    server: aakr1.zpcloud.top
-    port: 4654
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇰🇷 AA韩国2 IPLC  VIP2 网址:nnbin.com'
-    type: ssr
-    server: aakr2.zpcloud.top
-    port: 4655
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港1 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk1.zpcloud.top
-    port: 24207
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港2 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk2.zpcloud.top
-    port: 24206
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港3 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk30.zpcloud.top
-    port: 24205
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港5 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk5.zpcloud.top
-    port: 24204
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港6 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk6.zpcloud.top
-    port: 24203
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港7 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk7.zpcloud.top
-    port: 24202
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港8 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk8.zpcloud.top
-    port: 24201
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
-  -
-    name: '🇭🇰 AA香港9 IPLC 支持NF VIP2 网址:nnbin.com'
-    type: ssr
-    server: aahk9.zpcloud.top
-    port: 24200
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
-    obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    name: '🇺🇲 A美国3 AnyTls 网址:bdoos.com'
+    type: anytls
+    server: y1.wowodekuku.com
+    port: 26024
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
   -
     name: '🇸🇬 A新加坡1 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6021
+    server: mysql22.ali66mysql.com
+    port: 26018
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡2 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6001
+    server: mysql22.ali66mysql.com
+    port: 26000
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡3 VIP1 新网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6002
+    server: mysql22.ali66mysql.com
+    port: 26001
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 23544
+    server: mysql22.ali66mysql.com
+    port: 26002
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6004
+    server: mysql22.ali66mysql.com
+    port: 26003
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6005
+    server: mysql22.ali66mysql.com
+    port: 26004
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6006
+    server: mysql22.ali66mysql.com
+    port: 26005
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6007
+    server: mysql22.ali66mysql.com
+    port: 26006
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6008
+    server: mysql22.ali66mysql.com
+    port: 26007
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6009
+    server: mysql22.ali66mysql.com
+    port: 26008
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6017
+    server: mysql22.ali66mysql.com
+    port: 26016
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6010
+    server: mysql22.ali66mysql.com
+    port: 26009
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6011
+    server: mysql22.ali66mysql.com
+    port: 26010
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6012
+    server: mysql22.ali66mysql.com
+    port: 26011
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6013
+    server: mysql22.ali66mysql.com
+    port: 26012
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6014
+    server: mysql22.ali66mysql.com
+    port: 26013
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
-    name: '🇯🇵 日本2 网址:nnbin.com'
+    name: "🇯🇵 日本2 VIP1网址:nnbin.com\t"
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6015
+    server: mysql22.ali66mysql.com
+    port: 26014
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6016
+    server: mysql22.ali66mysql.com
+    port: 26015
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
   -
     name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
     type: ssr
-    server: baidu.baidumysql.com
-    port: 6018
+    server: mysql22.ali66mysql.com
+    port: 26017
     cipher: aes-256-cfb
     password: J3ITPq
     protocol: auth_aes128_sha1
-    protocolparam: '569115:FGY6vN'
-    protocol-param: '569115:FGY6vN'
+    protocolparam: '855285:21xJEl'
+    protocol-param: '855285:21xJEl'
     obfs: http_simple
-    obfsparam: 7a6c8569115.microsoft.com
-    obfs-param: 7a6c8569115.microsoft.com
+    obfsparam: 378f9855285.microsoft.com
+    obfs-param: 378f9855285.microsoft.com
 proxy-groups:
   -
     name: Proxy
     type: select
     proxies:
-      - '🇸🇬 AA1新加坡 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA3新加坡 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA4新加坡IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国1 IPLC VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国2 IPLC  VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国3 IPLC VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国4 IPLC  VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国5 IPLC  VIP2 网址:nnbin.com'
-      - '🇺🇲 AA5美国6 V2ray 网址:nnbin.com'
-      - '🇯🇵 AA6日本1 IPLC VIP2 网址:nnbin.com'
-      - '🇯🇵 AA6日本2 IPLC VIP2 网址:nnbin.com'
-      - '🇮🇩 AA8印尼 VIP2 网址:nnbin.com'
-      - '🇹🇼 AA8台湾1 VIP2 网址:nnbin.com'
-      - "🇹🇼 AA8台湾2 支持NF VIP2 网址:nnbin.com\t"
-      - '🇹🇼 AA8台湾3 支持NF VIP2 网址:nnbin.com'
-      - '🇹🇷 AA8土耳其1 VIP2 网址:ccbbss.com'
-      - '🇧🇷 AA8巴西 VIP2 网址:nnbin.com'
-      - "🇩🇪 AA8德国 VIP2 网址:nnbin.com\t"
-      - '🇫🇷 AA8法国 V2ray 网址:nnbin.com'
-      - '🇹🇭 AA8泰国 VIP2 网址:nnbin.com'
-      - '🇹🇭 AA8泰国2 VIP2 网址:nnbin.com'
-      - 'AA8澳洲 V2ray 网址:nnbin.com'
-      - '🇵🇭 AA8菲律宾 VIP2 网址:nnbin.com'
-      - 'AA8西班牙 VIP2 网址:nnbin.com'
-      - '🇻🇳 AA8越南 VIP2 网址:nnbin.com'
-      - '🇲🇾 AA8马来西亚 VIP2 网址:nnbin.com'
-      - "🇲🇾 AA8马来西亚2 VIP2 网址:nnbin.com\t"
-      - '🇷🇺 AA俄罗斯1 VIP2 网址:nnbin.com'
-      - '🇨🇦 AA加拿大1 VIP2 网址:nnbin.com'
-      - '🇨🇦 AA加拿大2 VIP2 网址:nnbin.com'
-      - '🇮🇳 AA印度1 VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡1 IPLC  支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡2 IPLC  支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡3 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡4 IPLC  支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡5 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇸🇬 AA新加坡6 IPLC  支持NF VIP2 网址:nnbin.com'
-      - '🇬🇧 AA英国1 IEPL VIP2 网址:nnbin.com'
-      - '🇬🇧 AA英国2 IEPL VIP2 网址:nnbin.com'
-      - '🇬🇧 AA英国3 IEPL VIP2 网址:nnbin.com'
-      - '🇰🇷 AA韩国1 IPLC  VIP2 网址:nnbin.com'
-      - '🇰🇷 AA韩国2 IPLC  VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港1 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港2 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港3 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港5 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港6 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港7 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港8 IPLC 支持NF VIP2 网址:nnbin.com'
-      - '🇭🇰 AA香港9 IPLC 支持NF VIP2 网址:nnbin.com'
+      - '🇸🇬 A新加坡1 AnyTLs 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 AnyTLs 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 AnyTLs 网址:bdoos.com'
+      - '🇺🇲 A美国1 AnyTls 网址:bdoos.com'
+      - '🇺🇲 A美国2 AnyTls 网址:bdoos.com'
+      - '🇺🇲 A美国3 AnyTls 网址:bdoos.com'
       - '🇸🇬 A新加坡1 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡2 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡3 VIP1 新网址:nnbin.com'
@@ -969,7 +335,7 @@ proxy-groups:
       - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
       - '🇺🇲 c美国4 vip1 网址:nnbin.com'
       - '🇯🇵 日本1 VIP1网址:nnbin.com'
-      - '🇯🇵 日本2 网址:nnbin.com'
+      - "🇯🇵 日本2 VIP1网址:nnbin.com\t"
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
   -
@@ -1010,7 +376,7 @@ rules:
 - DOMAIN-SUFFIX,icloud.com,Domestic
 - DOMAIN-SUFFIX,icloud-content.com,Domestic
 - DOMAIN,e.crashlytics.com,REJECT
-- DOMAIN-KEYWORD,bilibili,China_media
+- DOMAIN-KEYWORD,bilibili,Domestic
 - DOMAIN-SUFFIX,acgvideo.com,China_media
 - DOMAIN-SUFFIX,hdslb.com,China_media
 
