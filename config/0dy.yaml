@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-04-25 10:58:14
+## 上次更新于：2026-05-03 08:42:28
 #---------------------------------------------------#
 
 port: 7890
@@ -14,314 +14,302 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '🇸🇬 A新加坡1 AnyTLs 网址:bdoos.com'
+    name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26019
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: i1.hdslb.com
     skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: '🇸🇬 A新加坡2 AnyTLs 网址:bdoos.com'
+    name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26020
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: s1.hdslb.com
     skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: '🇸🇬 A新加坡3 AnyTLs 网址:bdoos.com'
+    name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26021
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: i2.hdslb.com
     skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: '🇺🇲 A美国1 AnyTls 网址:bdoos.com'
+    name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26022
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: static.hdslb.com
     skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: '🇺🇲 A美国2 AnyTls 网址:bdoos.com'
+    name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26023
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: activity.hdslb.com
     skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: '🇺🇲 A美国3 AnyTls 网址:bdoos.com'
+    name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
     type: anytls
-    server: y1.wowodekuku.com
+    server: d1.wowodekuku.com
     port: 26024
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: data.bilibili.com
     skip-cert-verify: true
-  -
-    name: '🇸🇬 A新加坡1 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
-    port: 26018
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
-  -
-    name: '🇸🇬 A新加坡2 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
-    port: 26000
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
-  -
-    name: '🇸🇬 A新加坡3 VIP1 新网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
-    port: 26001
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26002
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorcosb.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26003
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: i0.hdslb.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26004
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorcosov.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26005
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorhwb.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26006
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: d1--cn-gotcha204-3.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26007
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: d1--cn-gotcha208.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26008
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirroraliov.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26016
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorhw.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26009
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-estgcos.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26010
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-estghw.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26011
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-estgoss.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26012
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-hz-mirrorakam.akamaized.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇯🇵 日本1 VIP1网址:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26013
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorhwo1.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
-    name: "🇯🇵 日本2 VIP1网址:nnbin.com\t"
-    type: ssr
-    server: mysql22.ali66mysql.com
+    name: '🇯🇵 日本2 VIP1网址:nnbin.com'
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26014
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorali.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26015
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorbd.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
-    type: ssr
-    server: mysql22.ali66mysql.com
+    type: anytls
+    server: d1.wowodekuku.com
     port: 26017
-    cipher: aes-256-cfb
-    password: J3ITPq
-    protocol: auth_aes128_sha1
-    protocolparam: '855285:21xJEl'
-    protocol-param: '855285:21xJEl'
-    obfs: http_simple
-    obfsparam: 378f9855285.microsoft.com
-    obfs-param: 378f9855285.microsoft.com
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: upos-sz-mirrorcos.bilivideo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
 proxy-groups:
   -
     name: Proxy
     type: select
     proxies:
-      - '🇸🇬 A新加坡1 AnyTLs 网址:bdoos.com'
-      - '🇸🇬 A新加坡2 AnyTLs 网址:bdoos.com'
-      - '🇸🇬 A新加坡3 AnyTLs 网址:bdoos.com'
-      - '🇺🇲 A美国1 AnyTls 网址:bdoos.com'
-      - '🇺🇲 A美国2 AnyTls 网址:bdoos.com'
-      - '🇺🇲 A美国3 AnyTls 网址:bdoos.com'
-      - '🇸🇬 A新加坡1 VIP1 网址:nnbin.com'
-      - '🇸🇬 A新加坡2 VIP1 网址:nnbin.com'
-      - '🇸🇬 A新加坡3 VIP1 新网址:nnbin.com'
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
       - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
@@ -335,7 +323,7 @@ proxy-groups:
       - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
       - '🇺🇲 c美国4 vip1 网址:nnbin.com'
       - '🇯🇵 日本1 VIP1网址:nnbin.com'
-      - "🇯🇵 日本2 VIP1网址:nnbin.com\t"
+      - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
   -
