@@ -1,0 +1,56 @@
+name: Update Config
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch config
+        run: |
+          set -euo pipefail
+
+          url="http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2"
+          outfile="config/0dy.yaml"
+
+          mkdir -p config
+
+          curl -f -L \
+            -A "clash-verge/v2.4.7" \
+            "$url" \
+            -o "$outfile"
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq \
+            https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Validate YAML
+        run: |
+          set -euo pipefail
+
+          file="config/0dy.yaml"
+
+          yq e '.' "$file" > /dev/null
+          yq e '.proxies' "$file" > /dev/null
+          yq e '.proxy-groups' "$file" > /dev/null
+          yq e '.rules' "$file" > /dev/null
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if ! git diff --quiet config/0dy.yaml; then
+            git add config/0dy.yaml
+            git commit -m "auto: update config"
+            git push
+          fi
