@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-03 08:42:28
+## 上次更新于：2026-05-04 12:39:37
 #---------------------------------------------------#
 
 port: 7890
@@ -16,7 +16,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26019
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i1.hdslb.com
@@ -29,7 +29,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26020
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: s1.hdslb.com
@@ -42,7 +42,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26021
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i2.hdslb.com
@@ -55,7 +55,7 @@ proxies:
   -
     name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26022
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: static.hdslb.com
@@ -68,7 +68,7 @@ proxies:
   -
     name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26023
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: activity.hdslb.com
@@ -81,7 +81,7 @@ proxies:
   -
     name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26024
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: data.bilibili.com
@@ -94,7 +94,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26002
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcosb.bilivideo.com
@@ -107,7 +107,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26003
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i0.hdslb.com
@@ -120,7 +120,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26004
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcosov.bilivideo.com
@@ -133,7 +133,7 @@ proxies:
   -
     name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26005
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhwb.bilivideo.com
@@ -146,7 +146,7 @@ proxies:
   -
     name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26006
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: d1--cn-gotcha204-3.bilivideo.com
@@ -159,7 +159,7 @@ proxies:
   -
     name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26007
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: d1--cn-gotcha208.bilivideo.com
@@ -172,7 +172,7 @@ proxies:
   -
     name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26008
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirroraliov.bilivideo.com
@@ -185,7 +185,7 @@ proxies:
   -
     name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26016
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhw.bilivideo.com
@@ -198,7 +198,7 @@ proxies:
   -
     name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26009
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estgcos.bilivideo.com
@@ -211,7 +211,7 @@ proxies:
   -
     name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26010
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estghw.bilivideo.com
@@ -224,7 +224,7 @@ proxies:
   -
     name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26011
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estgoss.bilivideo.com
@@ -237,10 +237,10 @@ proxies:
   -
     name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26012
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-hz-mirrorakam.akamaized.net
+    sni: i0.hdslb.com
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
@@ -250,7 +250,7 @@ proxies:
   -
     name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26013
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhwo1.bilivideo.com
@@ -263,7 +263,7 @@ proxies:
   -
     name: '🇯🇵 日本2 VIP1网址:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26014
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorali.bilivideo.com
@@ -276,7 +276,7 @@ proxies:
   -
     name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26015
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorbd.bilivideo.com
@@ -289,7 +289,7 @@ proxies:
   -
     name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
     type: anytls
-    server: d1.wowodekuku.com
+    server: d11.wowodekuku.com
     port: 26017
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcos.bilivideo.com
