@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-06 01:16:18
+## 上次更新于：2026-05-07 01:24:46
 #---------------------------------------------------#
 
 port: 7890
@@ -10,39 +10,8 @@ redir-port: 7892
 allow-lan: false
 mode: rule
 log-level: silent
-external-controller: '127.0.0.1:9090'
+external-controller: '0.0.0.0:9090'
 secret: ''
-dns:
-  enable: true
-  listen: '127.0.0.1:1053'
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  prefer-h3: false
-  use-hosts: true
-  use-system-hosts: true
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 223.6.6.6
-  nameserver:
-    - 'https://doh.pub/dns-query'
-    - 'https://dns.alidns.com/dns-query'
-  proxy-server-nameserver:
-    - 'https://doh.pub/dns-query'
-    - 'https://dns.alidns.com/dns-query'
-    - 'tls://223.5.5.5'
-  fake-ip-filter:
-    - '*.lan'
-    - '*.local'
-    - '*.arpa'
-    - 'time.*.com'
-    - 'ntp.*.com'
-    - +.market.xiaomi.com
-    - localhost.ptlogin2.qq.com
-    - localhost.work.weixin.qq.com
-    - '*.msftncsi.com'
-    - www.msftconnecttest.com
 proxies:
   -
     name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
@@ -52,11 +21,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i1.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
     type: anytls
@@ -65,11 +30,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: s1.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
     type: anytls
@@ -78,11 +39,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i2.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
@@ -91,11 +48,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: static.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
     type: anytls
@@ -104,11 +57,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: activity.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
     type: anytls
@@ -117,11 +66,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: data.bilibili.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
     type: anytls
@@ -130,11 +75,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcosb.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
     type: anytls
@@ -143,11 +84,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i0.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
     type: anytls
@@ -156,11 +93,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcosov.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
     type: anytls
@@ -169,11 +102,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhwb.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
     type: anytls
@@ -182,11 +111,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: d1--cn-gotcha204-3.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
     type: anytls
@@ -195,11 +120,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: d1--cn-gotcha208.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
     type: anytls
@@ -208,11 +129,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirroraliov.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
     type: anytls
@@ -221,11 +138,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhw.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
     type: anytls
@@ -234,11 +147,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estgcos.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
     type: anytls
@@ -247,11 +156,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estghw.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
     type: anytls
@@ -260,11 +165,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-estgoss.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
     type: anytls
@@ -273,11 +174,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: i0.hdslb.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: anytls
@@ -286,11 +183,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorhwo1.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇯🇵 日本2 VIP1网址:nnbin.com'
     type: anytls
@@ -299,11 +192,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorali.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
     type: anytls
@@ -312,11 +201,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorbd.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
   -
     name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
     type: anytls
@@ -325,11 +210,7 @@ proxies:
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: upos-sz-mirrorcos.bilivideo.com
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
-    alpn:
-      - h2
-      - http/1.1
 proxy-groups:
   -
     name: Proxy
