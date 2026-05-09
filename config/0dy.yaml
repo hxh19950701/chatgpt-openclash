@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-09 01:05:29
+## 上次更新于：2026-05-10 12:43:22
 #---------------------------------------------------#
 
 port: 7890
@@ -388,7 +388,6 @@ rules:
 - DOMAIN-SUFFIX,acfun.tv,DIRECT
 - DOMAIN-SUFFIX,air-matters.com,DIRECT
 - DOMAIN-SUFFIX,aixifan.com,DIRECT
-- DOMAIN-SUFFIX,akamaized.net,DIRECT
 - DOMAIN-KEYWORD,alicdn,DIRECT
 - DOMAIN-KEYWORD,alipay,DIRECT
 - DOMAIN-KEYWORD,taobao,DIRECT
@@ -439,7 +438,6 @@ rules:
 - DOMAIN-SUFFIX,mi.com,DIRECT
 - DOMAIN-SUFFIX,miaopai.com,DIRECT
 - DOMAIN-SUFFIX,microsoft.com,DIRECT
-- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
 - DOMAIN-SUFFIX,miui.com,DIRECT
 - DOMAIN-SUFFIX,miwifi.com,DIRECT
 - DOMAIN-SUFFIX,mob.com,DIRECT
@@ -459,7 +457,6 @@ rules:
 - DOMAIN-SUFFIX,qiyipic.com,DIRECT
 - DOMAIN-SUFFIX,qq.com,DIRECT
 - DOMAIN-SUFFIX,qqurl.com,DIRECT
-- DOMAIN-SUFFIX,rarbg.to,DIRECT
 - DOMAIN-SUFFIX,rr.tv,DIRECT
 - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
 - DOMAIN-SUFFIX,segmentfault.com,DIRECT
@@ -505,6 +502,7 @@ rules:
 - DOMAIN-KEYWORD,openai,Proxy
 - DOMAIN-KEYWORD,chatgpt,Proxy
 - DOMAIN-KEYWORD,pixiv,Proxy
+- DOMAIN-SUFFIX,rarbg.to,Proxy
 
 - DOMAIN-KEYWORD,pinterest,Proxy
 - DOMAIN-KEYWORD,behance,Proxy
@@ -519,6 +517,7 @@ rules:
 - DOMAIN-KEYWORD,whatsapp,Proxy
 
 - DOMAIN-SUFFIX,steamcommunity.com,Proxy
+- DOMAIN-SUFFIX,microsoftonline.com,Proxy
 - DOMAIN-SUFFIX,t.co,Proxy
 - DOMAIN-SUFFIX,x.com,Proxy
 - DOMAIN-SUFFIX,www.x.com,Proxy
