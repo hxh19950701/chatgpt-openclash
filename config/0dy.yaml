@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-10 12:43:22
+## 上次更新于：2026-05-11 12:43:42
 #---------------------------------------------------#
 
 port: 7890
@@ -493,6 +493,8 @@ rules:
 - DOMAIN-SUFFIX,zealer.com,DIRECT
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,ip138.com,DIRECT
+
 
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
@@ -517,6 +519,9 @@ rules:
 - DOMAIN-KEYWORD,whatsapp,Proxy
 
 - DOMAIN-SUFFIX,steamcommunity.com,Proxy
+- DOMAIN-SUFFIX,googleapis.cn,Proxy
+- DOMAIN-SUFFIX,googleapis.com,Proxy
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxy
 - DOMAIN-SUFFIX,microsoftonline.com,Proxy
 - DOMAIN-SUFFIX,t.co,Proxy
 - DOMAIN-SUFFIX,x.com,Proxy
