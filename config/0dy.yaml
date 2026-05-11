@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-11 12:43:42
+## 上次更新于：2026-05-12 01:50:01
 #---------------------------------------------------#
 
 port: 7890
@@ -19,7 +19,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26019
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: i1.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -28,7 +28,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26020
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: s1.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -37,7 +37,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26021
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: i2.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -46,7 +46,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26022
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: static.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -55,7 +55,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26023
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: activity.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -64,7 +64,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26024
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: data.bilibili.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -73,7 +73,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26002
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorcosb.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -82,7 +82,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26003
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: i0.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -91,7 +91,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26004
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorcosov.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -100,7 +100,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26005
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorhwb.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -109,7 +109,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26006
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: d1--cn-gotcha204-3.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -118,7 +118,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26007
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: d1--cn-gotcha208.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -127,7 +127,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26008
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirroraliov.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -136,7 +136,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26016
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorhw.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -145,7 +145,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26009
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-estgcos.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -154,7 +154,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26010
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-estghw.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -163,7 +163,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26011
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-estgoss.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -172,7 +172,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26012
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: i0.hdslb.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -181,7 +181,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26013
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorhwo1.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -190,7 +190,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26014
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorali.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -199,7 +199,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26015
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorbd.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
   -
@@ -208,7 +208,7 @@ proxies:
     server: d11.wowodekuku.com
     port: 26017
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: upos-sz-mirrorcos.bilivideo.com
+    sni: www.apple.com
     skip-cert-verify: true
     udp: true
 proxy-groups:
@@ -216,6 +216,8 @@ proxy-groups:
     name: Proxy
     type: select
     proxies:
+      - 自动选择
+      - 故障转移
       - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
@@ -239,146 +241,84 @@ proxy-groups:
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
   -
-    name: Domestic
-    type: select
+    name: 自动选择
+    type: url-test
     proxies:
-      - DIRECT
-      - Proxy
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
+      - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
+      - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
+      - '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港4 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港5 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港6 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港8 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
+      - '🇯🇵 日本1 VIP1网址:nnbin.com'
+      - '🇯🇵 日本2 VIP1网址:nnbin.com'
+      - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
+      - '🇰🇷 韩国2 VIP1 网址nnbin.com'
+    url: null
+    interval: null
   -
-    name: China_media
-    type: select
+    name: 故障转移
+    type: fallback
     proxies:
-      - Domestic
-      - Proxy
-  -
-    name: Global_media
-    type: select
-    proxies:
-      - Proxy
-  -
-    name: Others
-    type: select
-    proxies:
-      - Proxy
-      - Domestic
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
+      - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
+      - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
+      - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
+      - '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港4 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港5 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港6 VIP1 网址:nnbin.com'
+      - '🇭🇰 A香港8 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
+      - '🇯🇵 日本1 VIP1网址:nnbin.com'
+      - '🇯🇵 日本2 VIP1网址:nnbin.com'
+      - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
+      - '🇰🇷 韩国2 VIP1 网址nnbin.com'
+    url: null
+    interval: null
 
 
 rules:
-- DOMAIN,gs.apple.com,Proxy
-- DOMAIN-SUFFIX,mzstatic.com,DIRECT
-- DOMAIN-SUFFIX,akadns.net,DIRECT
-- DOMAIN-SUFFIX,aaplimg.com,DIRECT
-- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-
-- DOMAIN,itunes.apple.com, DIRECT
-- DOMAIN,beta.itunes.apple.com, DIRECT
-- DOMAIN-SUFFIX,apple.com, DIRECT
+- DOMAIN,itunes.apple.com,DIRECT
+- DOMAIN,beta.itunes.apple.com,DIRECT
+- DOMAIN-SUFFIX,apple.com,DIRECT
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
 - DOMAIN,e.crashlytics.com,REJECT
 - DOMAIN-KEYWORD,bilibili,DIRECT
-- DOMAIN-SUFFIX,acgvideo.com,China_media
-- DOMAIN-SUFFIX,hdslb.com,China_media
-
-- DOMAIN-KEYWORD,qiyi,China_media
-- DOMAIN-SUFFIX,qy.net,China_media
-- IP-CIDR,101.227.0.0/16,China_media
-- IP-CIDR,101.224.0.0/13,China_media
-- IP-CIDR,119.176.0.0/12,China_media
-
-- DOMAIN-SUFFIX,api.mob.app.letv.com,China_media
-
-- DOMAIN-KEYWORD,nowtv100,China_media
-- DOMAIN-KEYWORD,rthklive,China_media
-- DOMAIN-SUFFIX,mytvsuper.com,China_media
-- DOMAIN-SUFFIX,tvb.com,China_media
-
-- DOMAIN-SUFFIX,music.126.net,China_media
-- DOMAIN-SUFFIX,music.163.com,China_media
-
-- DOMAIN-SUFFIX,vv.video.qq.com,China_media
-
-- IP-CIDR,106.11.0.0/16,China_media
-
-
-- DOMAIN-SUFFIX,edgedatg.com,Global_media
-- DOMAIN-SUFFIX,go.com,Global_media
-
-- DOMAIN,linear-abematv.akamaized.net,Global_media
-- DOMAIN-SUFFIX,abema.io,Global_media
-- DOMAIN-SUFFIX,abema.tv,Global_media
-- DOMAIN-SUFFIX,akamaized.net,Global_media
-- DOMAIN-SUFFIX,ameba.jp,Global_media
-- DOMAIN-SUFFIX,hayabusa.io,Global_media
-
-- DOMAIN-SUFFIX,amazonaws.com,Global_media
-
-- DOMAIN-SUFFIX,bahamut.com.tw,Global_media
-- DOMAIN-SUFFIX,gamer.com.tw,Global_media
-- DOMAIN-SUFFIX,hinet.net,Global_media
-
-- DOMAIN-KEYWORD,bbcfmt,Global_media
-- DOMAIN-KEYWORD,co.uk,Global_media
-- DOMAIN-KEYWORD,uk-live,Global_media
-- DOMAIN-SUFFIX,bbc.co,Global_media
-- DOMAIN-SUFFIX,bbc.co.uk,Global_media
-- DOMAIN-SUFFIX,bbc.com,Global_media
-- DOMAIN-SUFFIX,bbci.co,Global_media
-- DOMAIN-SUFFIX,bbci.co.uk,Global_media
-
-- DOMAIN-SUFFIX,chocotv.com.tw,Global_media
-
-- DOMAIN-KEYWORD,epicgames,Global_media
-- DOMAIN-SUFFIX,helpshift.com,Global_media
-
-- DOMAIN-KEYWORD,foxplus,Global_media
-- DOMAIN-SUFFIX,config.fox.com,Global_media
-- DOMAIN-SUFFIX,emome.net,Global_media
-- DOMAIN-SUFFIX,fox.com,Global_media
-- DOMAIN-SUFFIX,foxdcg.com,Global_media
-- DOMAIN-SUFFIX,foxnow.com,Global_media
-- DOMAIN-SUFFIX,foxplus.com,Global_media
-- DOMAIN-SUFFIX,foxplay.com,Global_media
-- DOMAIN-SUFFIX,ipinfo.io,Global_media
-- DOMAIN-SUFFIX,mstage.io,Global_media
-- DOMAIN-SUFFIX,now.com,Global_media
-- DOMAIN-SUFFIX,theplatform.com,Global_media
-
-- DOMAIN-SUFFIX,hbo.com,Global_media
-- DOMAIN-SUFFIX,hbogo.com,Global_media
-
-- DOMAIN-SUFFIX,hbogoasia.hk,Global_media
-
-- DOMAIN-SUFFIX,happyon.jp,Global_media
-- DOMAIN-SUFFIX,hulu.com,Global_media
-- DOMAIN-SUFFIX,huluim.com,Global_media
-
-- DOMAIN-SUFFIX,imkan.tv,Global_media
-
-- DOMAIN-SUFFIX,joox.com,Global_media
-
-- DOMAIN-SUFFIX,netflix.com,Global_media
-- DOMAIN-SUFFIX,netflix.net,Global_media
-- DOMAIN-SUFFIX,nflxext.com,Global_media
-- DOMAIN-SUFFIX,nflximg.com,Global_media
-- DOMAIN-SUFFIX,nflximg.net,Global_media
-- DOMAIN-SUFFIX,nflxso.net,Global_media
-- DOMAIN-SUFFIX,nflxvideo.net,Global_media
-
-- DOMAIN-KEYWORD,spotify,Global_media
-- DOMAIN-SUFFIX,scdn.co,Global_media
-- DOMAIN-SUFFIX,spoti.fi,Global_media
-
-- DOMAIN-SUFFIX,viu.tv,Global_media
-
-- DOMAIN-KEYWORD,youtube,Global_media
-- DOMAIN-SUFFIX,googlevideo.com,Global_media
-- DOMAIN-SUFFIX,gvt2.com,Global_media
-- DOMAIN-SUFFIX,youtu.be,Global_media
-
-
-- DOMAIN-SUFFIX,cn,DIRECT
-
+- DOMAIN-SUFFIX,acgvideo.com,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-KEYWORD,qiyi,DIRECT
+- DOMAIN-SUFFIX,qy.net,DIRECT
+- DOMAIN-SUFFIX,api.mob.app.letv.com,DIRECT
+- DOMAIN-SUFFIX,music.126.net,DIRECT
+- DOMAIN-SUFFIX,music.163.com,DIRECT
+- DOMAIN-SUFFIX,vv.video.qq.com,DIRECT
+- DOMAIN,gs.apple.com,DIRECT
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 - DOMAIN-SUFFIX,126.com,DIRECT
 - DOMAIN-SUFFIX,126.net,DIRECT
 - DOMAIN-SUFFIX,127.net,DIRECT
@@ -496,6 +436,68 @@ rules:
 - DOMAIN-SUFFIX,ip138.com,DIRECT
 
 
+- DOMAIN-SUFFIX,edgedatg.com,Proxy
+- DOMAIN-SUFFIX,go.com,Proxy
+- DOMAIN,linear-abematv.akamaized.net,Proxy
+- DOMAIN-SUFFIX,abema.io,Proxy
+- DOMAIN-SUFFIX,abema.tv,Proxy
+- DOMAIN-SUFFIX,akamaized.net,Proxy
+- DOMAIN-SUFFIX,ameba.jp,Proxy
+- DOMAIN-SUFFIX,hayabusa.io,Proxy
+- DOMAIN-SUFFIX,amazonaws.com,Proxy
+- DOMAIN-SUFFIX,bahamut.com.tw,Proxy
+- DOMAIN-SUFFIX,gamer.com.tw,Proxy
+- DOMAIN-SUFFIX,hinet.net,Proxy
+- DOMAIN-KEYWORD,bbcfmt,Proxy
+- DOMAIN-KEYWORD,co.uk,Proxy
+- DOMAIN-KEYWORD,uk-live,Proxy
+- DOMAIN-SUFFIX,bbc.co,Proxy
+- DOMAIN-SUFFIX,bbc.co.uk,Proxy
+- DOMAIN-SUFFIX,bbc.com,Proxy
+- DOMAIN-SUFFIX,bbci.co,Proxy
+- DOMAIN-SUFFIX,bbci.co.uk,Proxy
+- DOMAIN-SUFFIX,chocotv.com.tw,Proxy
+- DOMAIN-KEYWORD,epicgames,Proxy
+- DOMAIN-SUFFIX,helpshift.com,Proxy
+- DOMAIN-KEYWORD,foxplus,Proxy
+- DOMAIN-SUFFIX,config.fox.com,Proxy
+- DOMAIN-SUFFIX,emome.net,Proxy
+- DOMAIN-SUFFIX,fox.com,Proxy
+- DOMAIN-SUFFIX,foxdcg.com,Proxy
+- DOMAIN-SUFFIX,foxnow.com,Proxy
+- DOMAIN-SUFFIX,foxplus.com,Proxy
+- DOMAIN-SUFFIX,foxplay.com,Proxy
+- DOMAIN-SUFFIX,ipinfo.io,Proxy
+- DOMAIN-SUFFIX,mstage.io,Proxy
+- DOMAIN-SUFFIX,now.com,Proxy
+- DOMAIN-SUFFIX,theplatform.com,Proxy
+- DOMAIN-SUFFIX,hbo.com,Proxy
+- DOMAIN-SUFFIX,hbogo.com,Proxy
+- DOMAIN-SUFFIX,hbogoasia.hk,Proxy
+- DOMAIN-SUFFIX,happyon.jp,Proxy
+- DOMAIN-SUFFIX,hulu.com,Proxy
+- DOMAIN-SUFFIX,huluim.com,Proxy
+- DOMAIN-SUFFIX,imkan.tv,Proxy
+- DOMAIN-SUFFIX,joox.com,Proxy
+- DOMAIN-SUFFIX,netflix.com,Proxy
+- DOMAIN-SUFFIX,netflix.net,Proxy
+- DOMAIN-SUFFIX,nflxext.com,Proxy
+- DOMAIN-SUFFIX,nflximg.com,Proxy
+- DOMAIN-SUFFIX,nflximg.net,Proxy
+- DOMAIN-SUFFIX,nflxso.net,Proxy
+- DOMAIN-SUFFIX,nflxvideo.net,Proxy
+- DOMAIN-KEYWORD,spotify,Proxy
+- DOMAIN-SUFFIX,scdn.co,Proxy
+- DOMAIN-SUFFIX,spoti.fi,Proxy
+- DOMAIN-SUFFIX,viu.tv,Proxy
+- DOMAIN-KEYWORD,youtube,Proxy
+- DOMAIN-SUFFIX,googlevideo.com,Proxy
+- DOMAIN-SUFFIX,gvt2.com,Proxy
+- DOMAIN-SUFFIX,youtu.be,Proxy
+- DOMAIN-KEYWORD,nowtv100,Proxy
+- DOMAIN-KEYWORD,rthklive,Proxy
+- DOMAIN-SUFFIX,mytvsuper.com,Proxy
+- DOMAIN-SUFFIX,tvb.com,Proxy
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
 - DOMAIN-KEYWORD,gmail,Proxy
@@ -505,7 +507,6 @@ rules:
 - DOMAIN-KEYWORD,chatgpt,Proxy
 - DOMAIN-KEYWORD,pixiv,Proxy
 - DOMAIN-SUFFIX,rarbg.to,Proxy
-
 - DOMAIN-KEYWORD,pinterest,Proxy
 - DOMAIN-KEYWORD,behance,Proxy
 - DOMAIN-SUFFIX,fb.me,Proxy
@@ -517,7 +518,6 @@ rules:
 - DOMAIN-KEYWORD,blogspot,Proxy
 - DOMAIN-SUFFIX,youtu.be,Proxy
 - DOMAIN-KEYWORD,whatsapp,Proxy
-
 - DOMAIN-SUFFIX,steamcommunity.com,Proxy
 - DOMAIN-SUFFIX,googleapis.cn,Proxy
 - DOMAIN-SUFFIX,googleapis.com,Proxy
@@ -662,7 +662,6 @@ rules:
 - DOMAIN-SUFFIX,licdn.com,Proxy
 - DOMAIN-SUFFIX,linkedin.com,Proxy
 - DOMAIN-SUFFIX,www.linkedin.com,Proxy
-
 - DOMAIN-SUFFIX,linode.com,Proxy
 - DOMAIN-SUFFIX,lithium.com,Proxy
 - DOMAIN-SUFFIX,littlehj.com,Proxy
@@ -810,7 +809,6 @@ rules:
 - DOMAIN-SUFFIX,auth.openai.com,Proxy
 - DOMAIN-SUFFIX,auth0.openai.com,Proxy
 - DOMAIN-SUFFIX,ab.chatgpt.com,Proxy
-
 - DOMAIN-SUFFIX,telegra.ph,Proxy
 - DOMAIN-SUFFIX,telegram.org,Proxy
 - IP-CIDR,91.108.56.0/22,Proxy
@@ -846,6 +844,10 @@ rules:
 - IP-CIDR,208.64.200.0/22,DIRECT
 - IP-CIDR,208.78.164.0/22,DIRECT
 - IP-CIDR,205.185.194.0/24,DIRECT
+- IP-CIDR,101.224.0.0/13,DIRECT
+- IP-CIDR,119.176.0.0/12,DIRECT
+- IP-CIDR,106.11.0.0/16,DIRECT
+
 - DOMAIN-SUFFIX,local,DIRECT
 - IP-CIDR,127.0.0.0/8,DIRECT
 - IP-CIDR,172.16.0.0/12,DIRECT
@@ -857,5 +859,7 @@ rules:
 
 
 
+- DOMAIN-SUFFIX,cn,DIRECT
+- GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,Others
+- MATCH,Proxy
