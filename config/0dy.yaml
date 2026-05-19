@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-19 01:54:03
+## 上次更新于：2026-05-20 01:59:06
 #---------------------------------------------------#
 
 port: 7890
@@ -266,8 +266,10 @@ proxy-groups:
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
-    url: null
-    interval: null
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1800
+    tolerance: 300
+    lazy: true
   -
     name: 故障转移
     type: fallback
@@ -294,8 +296,9 @@ proxy-groups:
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
-    url: null
-    interval: null
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1800
+    lazy: true
 
 
 rules:
