@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-22 01:52:05
+## 上次更新于：2026-05-23 01:45:45
 #---------------------------------------------------#
 
 port: 7890
@@ -16,201 +16,289 @@ proxies:
   -
     name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26019
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.sony.com.cn
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26020
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.intel.cn
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26021
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: auth.api.sonyentertainmentnetwork.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26022
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: download.amd.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26023
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.nvidia.cn
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26024
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.nvidia.cn
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26002
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: fonts.googleapis.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26003
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: images-fe.ssl-images-amazon.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26004
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: bilibili-jp3.biliimg.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26005
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: fonts.gstatic.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26006
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.bing.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26007
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: cn.bing.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26008
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: login.live.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26016
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: teams.live.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26009
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: setup.icloud.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26010
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: weather-data.apple.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26011
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: www.amazon.cn
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26012
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: m.media-amazon.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26013
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: account.apple.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇯🇵 日本2 VIP1网址:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26014
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: init.itunes.apple.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26015
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: bilibili-jp.biliimg.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
   -
     name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
     type: anytls
-    server: d11.wowodekuku.com
+    server: dv1.wowodekuku.com
     port: 26017
     password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
+    sni: bilibili-jp2.biliimg.com
     skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
+    alpn:
+      - h2
+      - http/1.1
 proxy-groups:
   -
     name: Proxy
