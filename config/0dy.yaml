@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-05-25 12:54:09
+## 上次更新于：2026-05-26 01:28:33
 #---------------------------------------------------#
 
 port: 7890
@@ -355,7 +355,7 @@ proxy-groups:
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1800
+    interval: 86400
     tolerance: 300
     lazy: true
   -
@@ -385,7 +385,7 @@ proxy-groups:
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1800
+    interval: 7200
     lazy: true
 
 
