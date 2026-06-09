@@ -37,3 +37,12 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+
+# Add Gemini
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN,studio.google.com
