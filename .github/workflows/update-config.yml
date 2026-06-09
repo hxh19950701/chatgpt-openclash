@@ -49,8 +49,14 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          if ! git diff --quiet config/0dy.yaml; then
-            git add config/0dy.yaml
+          file="config/0dy.yaml"
+
+          # Remove date line from both versions for comparison
+          git show HEAD:"$file" 2>/dev/null | sed '/## 上次更新于：/d' > /tmp/old.yaml || true
+          sed '/## 上次更新于：/d' "$file" > /tmp/new.yaml
+
+          if ! diff -q /tmp/old.yaml /tmp/new.yaml > /dev/null 2>&1; then
+            git add "$file"
             git commit -m "auto: update config"
             git push
           fi
