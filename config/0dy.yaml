@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-07-06 12:58:50
+## 上次更新于：2026-07-10 01:48:46
 #---------------------------------------------------#
 
 port: 7890
@@ -12,6 +12,37 @@ mode: rule
 log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: true
+  default-nameserver:
+    - system
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+  nameserver:
+    - system
+  proxy-server-nameserver:
+    - 'https://allidns.com/dns-query'
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.arpa'
+    - 'time.*.com'
+    - 'ntp.*.com'
+    - +.market.xiaomi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.work.weixin.qq.com
+    - '*.msftncsi.com'
+    - www.msftconnecttest.com
+    - +.bilibili.com
+    - +.bilivideo.com
+    - +.hdslb.com
 proxies:
   -
     name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
