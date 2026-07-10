@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-07-10 01:48:46
+## 上次更新于：2026-07-11 01:41:34
 #---------------------------------------------------#
 
 port: 7890
@@ -44,8 +44,7 @@ dns:
     - +.bilivideo.com
     - +.hdslb.com
 proxies:
-  -
-    name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+  - name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26019
@@ -57,8 +56,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+  - name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26020
@@ -70,8 +68,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
+  - name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26021
@@ -83,8 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
+  - name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26022
@@ -96,8 +92,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
+  - name: '🇺🇲 A美国2 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26023
@@ -109,8 +104,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+  - name: '🇺🇲 A美国3 VIP1 网址:bdoos.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26024
@@ -122,8 +116,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
+  - name: '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26002
@@ -135,8 +128,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
+  - name: '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26003
@@ -148,8 +140,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
+  - name: '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26004
@@ -161,8 +152,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
+  - name: '🇸🇬 A新加坡7 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26005
@@ -174,8 +164,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
+  - name: '🇭🇰 A香港4 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26006
@@ -187,8 +176,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
+  - name: '🇭🇰 A香港5 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26007
@@ -200,8 +188,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
+  - name: '🇭🇰 A香港6 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26008
@@ -213,8 +200,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
+  - name: '🇭🇰 A香港8 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26016
@@ -226,8 +212,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+  - name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26009
@@ -239,8 +224,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+  - name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26010
@@ -252,8 +236,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+  - name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26011
@@ -265,8 +248,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
+  - name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26012
@@ -278,8 +260,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇯🇵 日本1 VIP1网址:nnbin.com'
+  - name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26013
@@ -291,8 +272,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇯🇵 日本2 VIP1网址:nnbin.com'
+  - name: '🇯🇵 日本2 VIP1网址:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26014
@@ -304,8 +284,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
+  - name: '🇰🇷 韩国1 VIP1 网站:nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26015
@@ -317,8 +296,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  -
-    name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
+  - name: '🇰🇷 韩国2 VIP1 网址nnbin.com'
     type: anytls
     server: a.iqiymysql.com
     port: 26017
@@ -331,8 +309,7 @@ proxies:
       - h2
       - http/1.1
 proxy-groups:
-  -
-    name: Proxy
+  - name: Proxy
     type: select
     proxies:
       - 自动选择
@@ -359,8 +336,7 @@ proxy-groups:
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
       - '🇰🇷 韩国2 VIP1 网址nnbin.com'
-  -
-    name: 自动选择
+  - name: 自动选择
     type: url-test
     proxies:
       - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
@@ -389,8 +365,7 @@ proxy-groups:
     interval: 86400
     tolerance: 300
     lazy: true
-  -
-    name: 故障转移
+  - name: 故障转移
     type: fallback
     proxies:
       - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
