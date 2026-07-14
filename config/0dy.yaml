@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-07-11 01:41:34
+## 上次更新于：2026-07-15 01:05:15
 #---------------------------------------------------#
 
 port: 7890
@@ -28,7 +28,7 @@ dns:
   nameserver:
     - system
   proxy-server-nameserver:
-    - 'https://allidns.com/dns-query'
+    - 'https://www.allidns.com/dq7k9z2x8m'
   fake-ip-filter:
     - '*.lan'
     - '*.local'
