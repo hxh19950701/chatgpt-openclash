@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG http://47.242.55.240/link/jjp2MZMNjjuO3ndo?clash=2
 
 #---------------------------------------------------#
-## 上次更新于：2026-07-31 06:35:10
+## 上次更新于：2026-09-22 09:02:37
 #---------------------------------------------------#
 
 port: 7890
@@ -44,42 +44,6 @@ dns:
     - +.bilivideo.com
     - +.hdslb.com
 proxies:
-  - name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26019
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26020
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26021
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
   - name: '🇺🇲 A美国1 VIP1 网址:bdoos.com'
     type: anytls
     server: ew.ali66mysql.com
@@ -108,6 +72,90 @@ proxies:
     type: anytls
     server: ew.ali66mysql.com
     port: 26024
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26009
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26010
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26011
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26012
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26019
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26020
+    password: 30fe8861-b718-32af-b191-3d38da542d14
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
+    type: anytls
+    server: ew.ali66mysql.com
+    port: 26021
     password: 30fe8861-b718-32af-b191-3d38da542d14
     sni: www.apple.com
     skip-cert-verify: true
@@ -212,54 +260,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: '🇺🇲 c美国1 VIP1 网址:nnbin.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26009
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: '🇺🇲 C美国2 VIP1 网址:nnbin.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26010
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: '🇺🇲 c美国3 VIP1 网址:nnbin.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26011
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: '🇺🇲 c美国4 vip1 网址:nnbin.com'
-    type: anytls
-    server: ew.ali66mysql.com
-    port: 26012
-    password: 30fe8861-b718-32af-b191-3d38da542d14
-    sni: www.apple.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    alpn:
-      - h2
-      - http/1.1
   - name: '🇯🇵 日本1 VIP1网址:nnbin.com'
     type: anytls
     server: ew.ali66mysql.com
@@ -314,12 +314,16 @@ proxy-groups:
     proxies:
       - 自动选择
       - 故障转移
-      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
       - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
@@ -328,10 +332,6 @@ proxy-groups:
       - '🇭🇰 A香港5 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港6 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港8 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
-      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
       - '🇯🇵 日本1 VIP1网址:nnbin.com'
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
@@ -339,12 +339,16 @@ proxy-groups:
   - name: 自动选择
     type: url-test
     proxies:
-      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
       - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
@@ -353,10 +357,6 @@ proxy-groups:
       - '🇭🇰 A香港5 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港6 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港8 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
-      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
       - '🇯🇵 日本1 VIP1网址:nnbin.com'
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
@@ -368,12 +368,16 @@ proxy-groups:
   - name: 故障转移
     type: fallback
     proxies:
-      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
-      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国1 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国2 VIP1 网址:bdoos.com'
       - '🇺🇲 A美国3 VIP1 网址:bdoos.com'
+      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
+      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
+      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
+      - '🇸🇬 A新加坡1 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡2 VIP1 网址:bdoos.com'
+      - '🇸🇬 A新加坡3 VIP1 网址:bdoos.com'
       - '🇸🇬 A新加坡4 VIP1 网址:nnbin.com'
       - '🇸🇬 A新加坡5 vip1 网址:nnbin.com'
       - '🇸🇬 A新加坡6 VIP1 网址:nnbin.com'
@@ -382,10 +386,6 @@ proxy-groups:
       - '🇭🇰 A香港5 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港6 VIP1 网址:nnbin.com'
       - '🇭🇰 A香港8 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国1 VIP1 网址:nnbin.com'
-      - '🇺🇲 C美国2 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国3 VIP1 网址:nnbin.com'
-      - '🇺🇲 c美国4 vip1 网址:nnbin.com'
       - '🇯🇵 日本1 VIP1网址:nnbin.com'
       - '🇯🇵 日本2 VIP1网址:nnbin.com'
       - '🇰🇷 韩国1 VIP1 网站:nnbin.com'
