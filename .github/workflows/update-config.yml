@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          url="http://43.135.28.238/link/jjp2MZMNjjuO3ndo?clash=2"
+          url="https://dy.0dy10.com/link/aPN03xytxPvp6e5p?clash=2"
           outfile="config/0dy.yaml"
 
           mkdir -p config
