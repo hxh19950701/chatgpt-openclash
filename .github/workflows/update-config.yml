@@ -1,9 +1,6 @@
 name: Update Config
 
 on:
-  schedule:
-    - cron: '0 8 * * *'    # 每天 UTC 08:00
-    - cron: '0 16 * * *'   # 每天 UTC 16:00
   workflow_dispatch:
 
 jobs:
